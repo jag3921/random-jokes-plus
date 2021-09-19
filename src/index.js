@@ -1,9 +1,9 @@
 // Random Jokes returend as json
 const http = require('http');
 const url = require('url');
-
+// process.env.PORT || process.env.NODE_PORT || 
 //const query = require('querystring');
-const port = process.env.PORT || process.env.NODE_PORT || 3000;
+const port = 3000;
 
 const errorPage = `
 <html>
